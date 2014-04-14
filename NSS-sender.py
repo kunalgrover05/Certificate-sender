@@ -55,8 +55,8 @@ def make_certi( ID, name, institute, project ):
 
 # Email the certificate as an attachment
 def email_certi( filename, receiver ):
-    username = "kunalgrover05"
-    password = "DarkKnight"
+    username = ""
+    password = ""
     sender = username + '@gmail.com'
 
     msg = MIMEMultipart()
